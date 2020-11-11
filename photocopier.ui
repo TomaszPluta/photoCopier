@@ -40,7 +40,7 @@
      <string>Destination</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit">
+   <widget class="QLineEdit" name="lineEditSource">
     <property name="geometry">
      <rect>
       <x>160</x>
@@ -50,7 +50,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_2">
+   <widget class="QLineEdit" name="lineEditDestination">
     <property name="geometry">
      <rect>
       <x>160</x>
@@ -60,7 +60,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit">
+   <widget class="QTextEdit" name="textEditOutput">
     <property name="geometry">
      <rect>
       <x>50</x>

@@ -5,7 +5,7 @@
 #include <QLabel>
 #include <QPushButton>
 #include <QHBoxLayout>
-
+#include <QLineEdit>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class PhotoCopier; }
@@ -18,7 +18,9 @@ class PhotoCopier : public QMainWindow
 public:
     PhotoCopier(QWidget *parent = nullptr);
     ~PhotoCopier();
-    void browse();
+    QString browse();
+    void browseSource();
+    void browseDestination();
 
 private:
     Ui::PhotoCopier *ui;
