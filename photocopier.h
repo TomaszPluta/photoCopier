@@ -21,6 +21,8 @@ public:
     QString browse();
     void browseSource();
     void browseDestination();
+    void startCopying();
+
 
 private:
     Ui::PhotoCopier *ui;
